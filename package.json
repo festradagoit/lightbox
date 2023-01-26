@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://festradagoit.github.io/lightbox/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build"
+    "build": "parcel build src/*.html --public-url /lightbox/"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,5 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "targets": {
-    "frontend": {
-      "source": [
-        "src/index.html"
-      ]
-    }
-  }
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
